@@ -1,0 +1,275 @@
+/* CSS PAGINA INDEX */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.wsp{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50px;
+    z-index: 100;
+}
+
+
+.section-cabeza{
+    background-image: url(imagenes/header.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.titulo{
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+.subtitulo{
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-style: normal;
+    margin: 5px;
+}
+
+.noazul{
+    text-decoration: none;
+    color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.noazul1{
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    padding-left: 700px;
+    
+}
+
+.texto-1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #889696;
+
+}
+    
+.section-nosotros{
+    margin-bottom:300px;
+}
+
+.imagenes-nosotros{
+    float: left;
+    margin: 10px 10px 0px 10px;
+    border-radius: 15px;
+}
+
+
+.section-servicios{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.imagenes-servicios{
+    float: right;
+    border-radius: 15px;
+    max-width: fit-content;
+    margin-right: 10px;
+   
+}
+.lista-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    list-style-type: none;
+    font-size: larger;
+    color: #889696;
+}
+
+
+.section-flota{
+    margin-bottom: 10px ; 
+}
+
+.imagenes-centro{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.img-1{
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.lista-flota{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: larger;
+    color: #889696;
+    margin-bottom: 15px;
+    
+}
+
+.subtitulo-flota{
+    text-align: center; 
+    margin-right: 10px; 
+    color: coral;
+    font-size: larger;
+    font-style: normal;
+    margin-bottom: 10px;
+    
+}
+
+.section-contacto{
+    background-image: url(imagenes/contacto3.jpg);
+    background-size: cover;
+    border-radius: 15px;   
+}
+
+.contacto{
+    margin-top: 10px;
+    font-size: larger;
+    margin-left: 40px;
+}
+
+.contacto-1{
+    margin-left: 10px;
+}
+
+.footer{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: coral;
+    border-radius: 15px;
+} 
+
+.logos{
+    height: 25px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.fondo-pagina1{
+    background-image: url(imagenes/header.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#cabeza{
+    padding: 5px;
+}
+
+/* CSS PAGINA SERVICIOS */
+
+.titulo-servicio{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: coral;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.imgderecha{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.textoizquierda{
+    text-align: left;
+}
+
+.imgizquierda{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+
+}
+
+.textoderecha{
+    text-align: center;
+}
+
+/* CSS PAGINA FLOTA */
+
+.subtitulo-flota2{
+    text-align: center; 
+    color: coral;
+    font-size: x-large;
+    margin-top: 10px;
+}   
+
+.tituloflota{
+    text-align: left;
+    color: coral;
+    font-size: larger;
+}
+
+.lista-flota2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: larger;
+    color: #889696;
+    align-items: center;
+}
+
+.img-2{
+    border-radius: 15px;
+    height: 250px;
+    width: 450px;
+    margin: 10px;
+}
+
+.textoflota
+{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+/* CSS PAGINA NOSOTROS */
+
+
+.imagenes-nosotros2{
+    height: 270px;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.imagenes-nosotros3{
+    height: 270px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.subtitulo-nosotros2{
+    color: coral;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
